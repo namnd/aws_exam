@@ -267,6 +267,13 @@ Storage charges even if the DB instance is idle
 - Redshift, EC2 Reserved instances lease expiration
 - Service Limits (IAM)
 
+### Redshift
+- Does not support Spot instances, it has Spectrum, Instance
+- Pricing based
+    + Computer node hours
+    + Backup storage
+    + Data transfer
+    + Data scanned
 
 ### Opsworks
 - Stacks
